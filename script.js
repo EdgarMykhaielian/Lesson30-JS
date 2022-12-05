@@ -2,13 +2,13 @@
 let a = 0.1
 let b = 0.2
 let c = (a + b).toFixed(1)
-alert(`${a} + ${b} = ${c}`)
+console.log(`${a} + ${b} = ${c}`)
 
 //'1' + 2
 let x = '1'
 let y = 2
 let z = Number(x) + y
-alert(`${x} + ${y} = ${z}`)
+console.log(`${x} + ${y} = ${z}`)
 
 // 820mb files on a flash-drive
 let flashSize = prompt('Type in the size of your flash-drive(Gb)')
